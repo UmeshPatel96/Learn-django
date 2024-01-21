@@ -1,0 +1,62 @@
+h1  
+     {
+       text-align: center;
+     }
+body
+     {
+        color: white;
+        background-color: black;
+       display: flex;
+       justify-content: center;
+       
+     }
+#container
+     {
+        height: 100%;
+        width: 700px;
+        border: 1px solid white;
+        padding: 20px;
+        background: #000;
+        color: white;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        box-shadow: 0px 0px 30px white;
+         }
+#address
+    {
+        float: right;
+        width: 220px;
+     }
+
+#content
+    {
+      margin-top: 250px;
+     }
+
+#Subject
+     {
+        text-align: center;
+     }
+    
+#salutation
+     {
+        float: right;
+        width: 220px;
+     }
+
+#opa {
+        height: 100vh;
+        width: 100%;
+        opacity: 0.3;
+    }
+#opa:hover {
+        background: url(/day3/L1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+
+ #main {
+        margin-top: -100vh;
+    }
