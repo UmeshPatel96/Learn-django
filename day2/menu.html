@@ -2,88 +2,90 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <h1><center>Taj Hotel</center></h1>
 </head>
 
 <body>
-    <center>
-        <h1>Menu</h1>
-        <table border="1" style="border-collapse: collapse;">
-            <tr>
-                <td>
-                    <table border="1" style="border-collapse: collapse;">
-                        <form action="bill.html">
-                            <tr>
-                                <td>
-                                    <img src="./springroll.jpg" height="200" width="300" alt="Image standby">
-                                </td>
-                                <td>
-                                    <center>
-                                        <h1>Starter</h1>
-                                        <table border="1" style="border-collapse: collapse;">
-                                            <tr>
-                                                <th>Selected</th>
-                                                <th>Item</th>
-                                                <th>Price</th>
-                                            </tr>
-                                            <tr>
-                                                <td><input type="checkbox"></td>
-                                                <td>
-                                                    <label>Panner chilli</label>
-                                                </td>
-                                                <td>
-                                                    250.00<sup>₹</sup>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><input type="checkbox"></td>
-                                                <td>
-                                                    <label>Spring Roll</label>
-                                                </td>
-                                                <td>
-                                                    350.00<sup>₹</sup>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><input type="checkbox"></td>
-                                                <td>
-                                                    <label>Manchurian</label>
-                                                </td>
-                                                <td>
-                                                    300.00<sup>₹</sup>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><input type="checkbox"></td>
-                                                <td>
-                                                    <label>Pasta</label>
-                                                </td>
-                                                <td>
-                                                    150.00<sup>₹</sup>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><input type="checkbox"></td>
-                                                <td>
-                                                    <label>Veg Lolipop</label>
-                                                </td>
-                                                <td>
-                                                    300.00<sup>₹</sup>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </center>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <center>
-                                        <h1>Sabji</h1>
-                                        <table border="1" style="border-collapse: collapse;">
+    <div id="container">
+        <h1><center>Taj Hotel</center></h1>
+        
+        <center>
+            <h1>Menu</h1>
+                <table class="one" >
+                             <form action="bill.html">
+                                    <tr>
+                                        <!-- <td>
+                                            <div id="opa"><img src="./springroll.jpg" height="200" width="300" alt="Image standby"></div>
+                                        </td> -->
+                                        
+                                        <td colspan="3">
+                                            <center>
+                                                    <table class="two">
+                                                        <th colspan="3"><h1>Starter</h1></th>
+                                                        <tr>
+                                                            <th>Selected</th>
+                                                            <th>Item</th>
+                                                            <th>Price</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><input type="checkbox"></td>
+                                                            <td>
+                                                                <label>Panner chilli</label>
+                                                            </td>
+                                                            <td>
+                                                                250.00<sup>₹</sup>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><input type="checkbox"></td>
+                                                            <td>
+                                                                <label>Spring Roll</label>
+                                                            </td>
+                                                        <td>
+                                                            350.00<sup>₹</sup>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox"></td>
+                                                    <td>
+                                                        <label>Manchurian</label>
+                                                    </td>
+                                                    <td>
+                                                        300.00<sup>₹</sup>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox"></td>
+                                                    <td>
+                                                        <label>Pasta</label>
+                                                    </td>
+                                                    <td>
+                                                        150.00<sup>₹</sup>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox"></td>
+                                                    <td>
+                                                        <label>Veg Lolipop</label>
+                                                    </td>
+                                                    <td>
+                                                        300.00<sup>₹</sup>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </center>
+                                    </td>
+                                
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="3">
+                                        <center>
+                                            <table class="three">
+                                                <th colspan="3"><h1>Sabji</h1></th>
                                             <tr>
                                                 <th>Selected</th>
                                                 <th>Item</th>
@@ -137,19 +139,19 @@
                                         </table>
                                     </center>
                                 </td>
-                                <td>
-                                    <img src="./panner.jpg" height="200" width="300" alt="Image standby">
-                                </td>
+                                <!-- <td>
+                                    <div id="opa"><img src="./panner.jpg" height="200" width="300" alt="Image standby"></div>
+                                </td> -->
                             </tr>
-
+                            
                             <tr>
-                                <td>
-                                    <img src="./butter naan.jpg" height="200" width="300" alt="Image standby">
-                                </td>
-                                <td>
+                                <!-- <td>
+                                   <div id="opa"><img src="./butter naan.jpg" height="200" width="300" alt="Image standby"></div>
+                                </td> -->
+                                <td colspan="3">
                                     <center>
-                                        <h1>Breads</h1>
-                                        <table border="1" style="border-collapse: collapse;">
+                                        <table class="four">
+                                            <th colspan="3"><h1>Breads</h1></th>
                                             <tr>
                                                 <th>Selected</th>
                                                 <th>Item</th>
@@ -210,11 +212,9 @@
                                 </td>
                             </tr>
                         </form>
-                    </table>
-                </td>
-            </tr>
         </table>
     </center>
+</div>
 </body>
 
 </html>
