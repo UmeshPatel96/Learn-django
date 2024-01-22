@@ -19,6 +19,20 @@ body {
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
+#containe {
+    width: 700px;
+    height: 100%;
+    border: 3px solid rgb(25, 0, 255);
+    padding: 20px;
+    background: yellow;
+    color: rgb(25, 0, 255);
+    box-shadow: 0px 0px 50px yellowgreen;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+
 th{
     font-size: large;
 }
@@ -63,17 +77,40 @@ table.four:hover{
     background-repeat: repeat;
     background-size: contain;
 }
-/* #opa:hover {
-    background: url(./springroll.jpg);
+table.five{
+  
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(25, 0, 255);
+    color: rgb(25, 0, 255);
+   
+}
+table.five:hover{
+    background: url(./pexels-dipinder-rainu-12460246.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+table.six{
+    
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(25, 0, 255);
+}
+table.six:hover{
+    background: url(./taj.png);
+    background-repeat: repeat;
+    background-size: contain;}
+ /* #opa:hover {
+    background: url(./taj.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     box-shadow: 0px 0px 50px red;
-    transform: scale(1.2); */
-}
-/* #opa {
+    transform: scale(1.2);
+} 
+#opa {
     border: 3px solid red;
-    height: 100vh;
+     height: 1000px;
     width: 100%;
-    opacity: 0.3;
-} */
+    /* opacity: 0.3; 
+}
