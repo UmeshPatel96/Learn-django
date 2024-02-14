@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  #container{
+    background-color: black;
+    color: white;
+    height: 96vh;
+    width: 100px;
+  }
+  
+  .timer-container {
+    /* text-align: center; */
+  }
+  
+  #timer {
+    font-size: xx-large;
+    margin: 230px -100px;
+    margin-bottom: 10px;
+  }
+  #btn{
+    /* margin: 0px 0px; */
+    padding: 0px;
+    margin-left: -90px;
+  }
+  #start, #stop, #reset{
+    font-size: larger;
+  }
+  

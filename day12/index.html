@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="main.css ">
+</head>
+<body>
+    <div id="container">
+        <select name="menu" id="menu">
+            <option value="#">--Select Your Option</option>
+            <option value="Breads">Breads</option>
+            <option value="Panner">Panner</option>
+            <option value="Desert">Desert</option>
+        </select>
+        <div id="main_menu">
+            <div id="Breads">
+                <h1>Brerads</h1>
+                <ul>
+                    <li><input type="checkbox" name="Breads" class="Breads" value="Butter Naan">Butter Naan</li>
+                    <li><input type="checkbox" name="Breads" class="Breads" value="Plain Roti">Plain Roti</li>
+                    <li><input type="checkbox" name="Breads" class="Breads" value="Garlic Naan">Garlic Naan</li>
+                    <li><input type="checkbox" name="Breads" class="Breads" value="Lachha paratha">Lachha Paratha</li>
+                </ul>
+            </div>
+            <div id="Panner">
+                <h1>Panner</h1>
+                <ul>
+                    <li><input type="checkbox" name="Panner" class="Panner" value="Panner tikka">Panner tikka</li>
+                    <li><input type="checkbox" name="Panner" class="Panner" value="Panner butter masala">Panner butter masala</li>
+                    <li><input type="checkbox" name="Panner" class="Panner" value="Panner handi">Panner handi</li>
+                    <li><input type="checkbox" name="Panner" class="Panner" value="Palak Panner">Palak Panner</li>
+                </ul>
+            </div>    <div id="Desert">
+                <h1>Desert</h1>
+                <ul>
+                    <li><input type="checkbox" name="Desert" class="Desert" value="Gulab jamun">Gulab jamun</li>
+                    <li><input type="checkbox" name="Desert" class="Desert" value="Ice-Cream">Ice-Cream</li>
+                    <li><input type="checkbox" name="Desert" class="Desert" value="Rabdi">Rabdi</li>
+                    <li><input type="checkbox" name="Desert" class="Desert" value="Rasmalai">Rasmalai</li>
+                </ul>
+            </div>
+        </div>
+        <button onclick="menuCollected()">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
