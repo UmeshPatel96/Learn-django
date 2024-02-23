@@ -12,9 +12,9 @@ body {
     height: 100%;
     border: 3px solid rgb(25, 0, 255);
     padding: 20px;
-    background: yellow;
-    color: rgb(25, 0, 255);
-    box-shadow: 0px 0px 50px yellowgreen;
+    background: rgb(211, 147, 147);
+    color: white;
+    /* box-shadow: 0px 0px 50px yellowgreen; */
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -25,7 +25,7 @@ body {
     border: 3px solid rgb(25, 0, 255);
     padding: 20px;
     background: yellow;
-    color: rgb(25, 0, 255);
+    color: white;
     box-shadow: 0px 0px 50px yellowgreen;
     transition-property: all;
     transition-duration: 1s;
@@ -43,13 +43,13 @@ td{
 table.one {
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid white;
 }
 table.two{
     
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid white;
 }
 table.two:hover{
     background: url(./springroll.jpg);
@@ -59,7 +59,7 @@ table.three{
     
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid white;
 }
 table.three:hover{
     background: url(./panner.jpg);
@@ -69,7 +69,7 @@ table.four{
   
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid white;
    
 }
 table.four:hover{
@@ -81,8 +81,8 @@ table.five{
   
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
-    color: rgb(25, 0, 255);
+    border: 3px solid white;
+    color: white;
    
 }
 table.five:hover{
@@ -94,23 +94,10 @@ table.six{
     
     width: 100%;
     height: 100%;
-    border: 3px solid rgb(25, 0, 255);
+    border: 3px solid white;
 }
 table.six:hover{
     background: url(./taj.png);
     background-repeat: repeat;
     background-size: contain;}
- /* #opa:hover {
-    background: url(./taj.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    box-shadow: 0px 0px 50px red;
-    transform: scale(1.2);
-} 
-#opa {
-    border: 3px solid red;
-     height: 1000px;
-    width: 100%;
-    /* opacity: 0.3; 
-}
+    

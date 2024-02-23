@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <center>
+        <div class="container"></div>
+        <img src="download.png" alt="Google Logo" class="google-logo">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search Google...">
+            <button onclick="performSearch()">Search</button>
+        </div>
+        </div>
+    </center>
+
+    <script>
+        function performSearch() {
+            const searchTerm = document.getElementById('search-input').value;
+            window.location.href = `https://www.google.com/search?q=${searchTerm}`;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 let marks =[
     {
-        "name":umesh,
+        "name":"umesh"
         "marks":{
             "English":50,
             "Maths":50,

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.google-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
